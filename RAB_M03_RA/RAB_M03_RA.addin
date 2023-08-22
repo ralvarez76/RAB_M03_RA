@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Module 03 - Skills</Text>
+    <Description>Skills</Description>
+    <Assembly>RAB_M03_RA.dll</Assembly>
+    <FullClassName>RAB_M03_RA.Skills</FullClassName>
+    <ClientId>00D3D940-43B0-4B4D-8F5C-0E80A53E6876</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>RAB_M03_RA - MovingDay</Text>
+    <Description>Moving Day</Description>
+    <Assembly>RAB_M03_RA.dll</Assembly>
+    <FullClassName>RAB_M03_RA.MovingDay</FullClassName>
+    <ClientId>EA04F8A4-265F-4C56-AE92-0B1BE4B110FC</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RAB_M03_RA</Name>
+    <Assembly>RAB_M03_RA.dll</Assembly>
+    <FullClassName>RAB_M03_RA.App</FullClassName>
+    <ClientId>E6559FBA-EC12-4A4F-BC60-C1CEBC1E4BE2</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
